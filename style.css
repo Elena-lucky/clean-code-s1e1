@@ -18,8 +18,9 @@
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
-}
+  .header {
+    text-align: center;
+  }
 }
 .main {
   display: block;
@@ -38,12 +39,11 @@
   margin:0;
   padding: 0px;
 }
-.list__item,
-.section__title {
+.list__item, .section__title {
   list-style:none;
 }
 .input,
-.button{
+.button {
   outline:none;
 }
 .button {
@@ -99,7 +99,6 @@
   padding: 20px 0;
   border-bottom: 1px solid #eee;
   display: flex;
-
   justify-content: space-between;
   align-items: center;
 }
@@ -116,7 +115,7 @@
   font-size: 18px;
   width: 226px;
 }
-.list__item >    .input__text {
+.list__item > .input__text {
   width: 226px
 }
 .button_delete-img {
