@@ -38,6 +38,11 @@
   flex-grow: 1;
 }
 
+.input.checkbox {
+  width: auto;
+  flex-grow: 0;
+}
+
 .section__wrapper {
   display: flex;
 }
@@ -149,7 +154,8 @@
 }
 
 /* Completed */
-#completed-tasks .input__label {
+#completed-tasks .input {
+  font-size: 18px;
   text-decoration: line-through;
   color: #888;
 }
